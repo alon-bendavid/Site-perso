@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* border: solid; */
+    color: rgb(255, 255, 255)
+    
+}
+
+/* ///////////////////FONTS//////////////////// */
+h1{
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: medium;
+}
+
+h2{
+  font-weight: 400;
+
+  margin-bottom: 1rem;
+  font-weight: bold;
+
+}
+h3{
+  font-weight: 400;
+
+  margin-bottom: 1rem;
+
+}
+
+
+.nav-link{
+  font-size: medium;
+}
+.background{
+  width: 100%;
+}
+.logo
+{
+margin-left: 6rem;}
+
+body{
+    background-color: rgb(0, 0, 0); 
+      /* background-image: url("../media/backgroundA.png");
+       background-repeat: no-repeat;
+      background-size: cover;   */
+      height: 100vh;
+}
+header{
+    /* background-color: rgb(255, 255, 255); */
+    width: 100vw;
+
+}
+.section{
+  display: none;
+  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* padding: 2rem ; */
+padding-bottom: 2rem;
+padding-top: 2rem;
+}
+nav img{
+    margin-right:8rem;
+    width: 4rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    list-style: none;
+    width: 50%;
+    /* justify-content: flex-end; */
+}
+a{
+    /* color: rgb(255, 255, 255); */
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    transition: 0.1s ease-in-out; 
+    color: rgb(34, 185, 255);
+}
+/* nav bar underline animation */
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+  }
+  nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:  rgb(34, 185, 255);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+    animation: moveLeftToRight 0.3s ease-in-out forwards;
+  }
+  main{
+display: flex;
+    /* background-color:red ; */
+    align-items: center;
+    height: 80vh;
+  }
+  
+  /* ///////////////////CONTENT///////////////////// */
+  section{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+section div {
+  /* background-color: aqua; */
+  width: 40%;
+  /* background-color: aqua; */
+  /* padding: 3rem; */
+  font-size: medium;
+  font-weight: 400;
+
+}
+p{
+  line-height: 2
+  ;
+}
+.fade-in-text {
+  /* font-family: Arial; */
+  /* font-size: 150px; */
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+  
+  @keyframes moveLeftToRight {
+    from {
+      left: 0;
+    }
+    to {
+      right: 0;
+    }
+  }
+  @media (min-width:768 ){
+    body{
+        background-color: aqua;
+    }
+  }
