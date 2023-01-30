@@ -1,10 +1,11 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&display=swap');
-
+  /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     /* border: solid; */
     color: rgb(255, 255, 255)
     
@@ -50,8 +51,9 @@ body{
       height: 100vh;
 }
 header{
-    /* background-color: rgb(255, 255, 255); */
+    /* background-color: rgb(241, 57, 57); */
     width: 100vw;
+    height: 8%;
 
 }
 .section{
@@ -59,39 +61,42 @@ header{
   
 }
 
+
 nav{
+  height: 100%;
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
     justify-content: space-between;
     /* padding: 2rem ; */
-padding-bottom: 2rem;
-padding-top: 2rem;
-}
-nav img{
+    /* padding-bottom: 2rem; */
+    /* padding-top: 2rem; */
+    /* background-color: aqua; */
+  }
+  nav img{
     margin-right:8rem;
     width: 4rem;
-}
-
-ul{
+  }
+  
+  ul{
     display: flex;
     justify-content: space-around;
     /* background-color: aqua; */
     list-style: none;
     width: 50%;
     /* justify-content: flex-end; */
-}
-a{
+  }
+  a{
     /* color: rgb(255, 255, 255); */
     text-decoration: none;
-}
-
-.nav-link:hover{
+  }
+  
+  .nav-link:hover{
     transition: 0.1s ease-in-out; 
     color: rgb(34, 185, 255);
-}
-/* nav bar underline animation */
-nav a {
+  }
+  /* nav bar underline animation */
+  nav a {
     position: relative;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -114,26 +119,48 @@ nav a {
   }
   main{
 display: flex;
-    /* background-color:red ; */
-    align-items: center;
-    height: 80vh;
-  }
-  
-  /* ///////////////////CONTENT///////////////////// */
-  section{
-    /* background-color: brown; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-section div {
+/* background-color:red ; */
+align-items: center;
+height: 80vh;
+}
+
+/* ///////////////////CONTENT///////////////////// */
+section{
+  /* background-color: brown; */
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+.content {
   /* background-color: aqua; */
-  width: 40%;
+  max-width: 40%;
   /* background-color: aqua; */
   /* padding: 3rem; */
-  font-size: medium;
+  font-size: 1rem;
   font-weight: 400;
-
+  gap: 2rem;
+  
+}
+.direction{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  /* width: 100%; */
+  /* align-self:flex-end ; */
+  height: 12rem;
+}
+.about{
+  /* align-items:center ; */
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  
+}
+.experience{
+  display: none;
+  /* display: flex; */
+  
 }
 p{
   line-height: 2
@@ -143,6 +170,38 @@ p{
   /* font-family: Arial; */
   /* font-size: 150px; */
   animation: fadeIn 3s;
+}
+.icons{
+  /* background-color: aqua; */
+  margin-left: 6rem;
+  width:25%;
+  /* height: 55%; */
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  /* position: relative; */
+color: rgb(255, 255, 255);
+margin: 5%;
+/* left: 85px; */
+/* bottom: 250px; */
+}
+hr{
+  /* margin: 5%; */
+}
+
+.icon:hover{
+  transition: 0.4s ease-in-out; 
+  color: rgb(34, 185, 255);
+}
+.experienceBtns{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  /* left: 5rem; */
 }
 
 @keyframes fadeIn {
@@ -166,3 +225,41 @@ p{
         background-color: aqua;
     }
   }
+
+  /* ////////////////////responsive//////////////////////////////////////// */
+  @media (max-width: 767px) {
+    main{
+        /* background-color: rgb(248, 90, 17); */
+
+        flex-direction: column;
+        /* justify-content: center; */
+        /* flex-wrap: wrap; */
+        align-items: center;
+        
+        
+        }
+       ul{
+          /* display: flex;
+          flex-direction: column;
+      
+          width: 25%;
+          gap: 1rem; */
+          display: none;
+      }
+      .section{
+        /* padding: 0; */
+      }
+      .content{
+       flex-direction: column;
+       width: 100%;
+       text-overflow: inherit;
+       height: 50%;
+      }
+      .about{
+
+      }
+
+   
+
+        
+    }
