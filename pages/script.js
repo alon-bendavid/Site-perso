@@ -21,23 +21,23 @@ document.addEventListener('DOMContentLoaded',function(){
 function showSection(id) {
       //starting animation
       gsap.from('#M-plateforme', {
-        duration:5 , x:'-20%',ease:'back',delay: 0.5
+        duration:5 , x:'-30%',ease:'back',delay: 0.5
         
         })
         gsap.from('#M-poolstar', {
-          duration:5 , x:'-20%',ease:'back',delay: 0.4
+          duration:5 , x:'-30%',ease:'back',delay: 0.4
           
           })
           gsap.from('#M-level', {
-            duration:5 , x:'-20%',ease:'back',delay: 0.3
+            duration:5 , x:'-30%',ease:'back',delay: 0.3
             
             })
             gsap.from('#M-taga', {
-              duration:5 , x:'-20%',ease:'back',delay: 0.2
+              duration:5 , x:'-30%',ease:'back',delay: 0.2
               
               })
               gsap.from('#M-ron', {
-                duration:5 , x:'-20%',ease:'back',delay: 0.1
+                duration:5 , x:'-30%',ease:'back',delay: 0.1
                 
                 })
     // hide all sections

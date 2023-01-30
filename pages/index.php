@@ -59,9 +59,9 @@
                     <h3 class="orange">Working Experience</h3>
                     <a id="M-plateforme" class="nav-link" href="#home" onclick="showExperience('plateforme')">La Plateforme</a>
                     <a id="M-poolstar" class="nav-link" href="#home" onclick="showExperience('poolstar')">PoolStar</a>
-                    <a id="M-level" class="nav-link" href="#home" onclick="showExperience('plateforme')">Level</a>
-                    <a id="M-taga" class="nav-link" href="#home" onclick="showExperience('plateforme')">Taga</a>
-                    <a id="M-ron" class="nav-link" href="#home" onclick="showExperience('plateforme')">Ron Arad Studio</a>
+                    <a id="M-level" class="nav-link" href="#home" onclick="showExperience('level')">Level</a>
+                    <a id="M-taga" class="nav-link" href="#home" onclick="showExperience('taga')">Taga</a>
+                    <a id="M-ron" class="nav-link" href="#home" onclick="showExperience('ron')">Ron Arad Studio</a>
 
 
                 </div>
@@ -77,19 +77,24 @@
                     </p>
                 </div>
                 <div id="poolstar" class="experience direction">
+                    <h2>Concepteur et Designer Industriel</h2>
+                    <h3>POOLSTAR, CDD 6 MOIS 2021/2022</h3>
 
-                    <h3>Alon Ben David</h3>
+                    <li>Identification d'opportunités pour innover dans de nouveaux produits</li>
+                    <li>R&D sur des produits nautiques</li>
+                    <li>Design et animations 3D</li>
+                    <li>Coordination avec les Ingénieurs</li>
 
-                    <p>Lorem ipsum dolo rerum perferendis quae quia cupiditate, rem error impedit, voluptatibus velit atque tempora officia laboriosam, quis sequi culpa. Laboriosam cumque vero est.
-                    </p>
                 </div>
                 <div id="level" class="experience direction">
-
-                    <h3>Alon Ben David</h3>
-
-                    <p>Lorem ipsum rum perferendis quae quia cupiditate, rem error impedit, voluptatibus velit atque tempora officia laboriosam, quis sequi culpa. Laboriosam cumque vero est.
-                    </p>
+                    <h2>Designer industriel</h2>
+                    <h3>LEVEL, 2020 (FÉVRIER - SEPTEMBRE)</h3>
+                    <li> Design d'un foil board électrique stable</li>
+                    <li> R&D de concepts (design et ingénierie)</li>
+                    <li>Conception et fabrication de composites</li>
+                    <li>Graphisme (logo et marque)</li>
                 </div>
+
             </div>
             <div id="work" class="section fade-in-text content">
                 <!-- <h2>info</h2> -->
