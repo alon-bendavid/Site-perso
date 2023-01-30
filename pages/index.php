@@ -56,7 +56,7 @@
             <div id="experience" class="section fade-in-text content">
                 <div class="experienceBtns">
 
-                    <h3>Working Experience</h3>
+                    <h3 class="orange">Working Experience</h3>
                     <a id="M-plateforme" class="nav-link" href="#home" onclick="showExperience('plateforme')">La Plateforme</a>
                     <a id="M-poolstar" class="nav-link" href="#home" onclick="showExperience('poolstar')">PoolStar</a>
                     <a id="M-level" class="nav-link" href="#home" onclick="showExperience('plateforme')">Level</a>

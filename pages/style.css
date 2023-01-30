@@ -20,16 +20,19 @@ h1{
 
 h2{
   font-weight: 400;
-
+  
   margin-bottom: 1rem;
   font-weight: bold;
-
+  
 }
 h3{
   font-weight: 400;
-
+  
   margin-bottom: 1rem;
-
+  
+}
+.orange {
+  color: rgb(255, 22, 111);
 }
 
 
@@ -92,9 +95,10 @@ nav{
   }
   
   .nav-link:hover{
-    transition: 0.1s ease-in-out; 
+    transition: 0.3s ease-in-out; 
     color: rgb(34, 185, 255);
   }
+   a:hover{ -webkit-transform: scale(1.05); }
   /* nav bar underline animation */
   nav a {
     position: relative;
