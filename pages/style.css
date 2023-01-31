@@ -32,7 +32,7 @@ h3{
   
 }
 .orange {
-  color: rgb(255, 22, 111);
+  color: rgb(34, 185, 255);
 }
 
 
@@ -127,6 +127,13 @@ display: flex;
 align-items: center;
 height: 80vh;
 }
+.video {
+  width: 25%;
+  position: absolute;
+/* align-self: center; */
+right: 20%;
+bottom: 5%;
+}
 
 /* ///////////////////CONTENT///////////////////// */
 section{
@@ -164,6 +171,9 @@ img{
 .experience{
   display: none;
   /* display: flex; */
+  height: 18vh;
+  width: 404vw;
+  /* background-color: greenyellow; */
   
 }
 p{
@@ -194,6 +204,7 @@ margin: 5%;
 }
 hr{
   /* margin: 5%; */
+  height: 100%;
 }
 
 .icon:hover{
@@ -201,11 +212,14 @@ hr{
   color: rgb(34, 185, 255);
 }
 .experienceBtns{
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
-  /* left: 5rem; */
+  /* position: absolute; */
+  /* left: 15%; */
+  /* top:35%; */
+
 }
 
 @keyframes fadeIn {
@@ -266,4 +280,36 @@ hr{
    
 
         
+    }
+
+
+
+    /* //////////projects///////////////// */
+
+#projects{
+display: flex;
+justify-content: space-around;
+gap: 2rem;
+
+}
+
+    .img-container {
+      /* position: relative; */
+      /* display: inline-block; */
+    }
+    
+    .img-container:hover .img-content  {
+      filter: none;
+    }
+    
+  
+    
+    .img-content {
+      margin-top: 1rem;
+      width: 250px;
+      /* height: auto; */
+      object-fit: cover;
+      filter: grayscale(100%);
+      transition: filter 0.5s ease-in-out;
+      border-radius: 15px;
     }

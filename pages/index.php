@@ -23,7 +23,7 @@
 
                 <a class="nav-link" href="#home" onclick="showSection('about')">About</a>
                 <a class="nav-link" href="#about" onclick="showSection('experience')">Experience</a>
-                <a class="nav-link" href="#contact" onclick="showSection('work')">Projects</a>
+                <a class="nav-link" href="#contact" onclick="showSection('projects')">Projects</a>
                 <a class="nav-link" href="#contact" onclick="showSection('contact')">Contact</a>
 
             </ul>
@@ -54,6 +54,7 @@
                 </div>
             </div>
             <div id="experience" class="section fade-in-text content">
+                <video class="video" loop muted src="..\media\file.mp4"></video>
                 <div class="experienceBtns">
 
                     <h3 class="orange">Working Experience</h3>
@@ -96,12 +97,31 @@
                 </div>
 
             </div>
-            <div id="work" class="section fade-in-text content">
-                <!-- <h2>info</h2> -->
-                <h3>info 2</h3>
+            <div id="projects" class="section fade-in-text content">
+                <div class="project">
+                    <h3>Projet Stay App Store</h3>
+                    <span>parody project</span>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="../media/stay-app.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Projet Stay App Store</h3>
+                    <span>parody project</span>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/Réservation de salles.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Projet Stay App Store</h3>
+                    <span>parody project</span>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/stay-app.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+            </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio ab hic libero nobis voluptatem excepturi ad. Laborum expedita cupiditate rem dolorem dolorum cumque, quod harum provident? Dolores provident tempora iste. Eum nemo sed illo possimus nobis officiis deserunt labore inventore quas vitae accusantium ipsam, non quo cupiditate alias blanditiis consectetur molestias et autem aut nostrum ab culpa. Facere, minima, ex architecto quia enim totam perferendis laudantium recusandae tempore consequatur sed atque maiores id aspernatur maxime quidem vero. Sequi eius aut quis quam soluta veritatis dicta, veniam at suscipit, adipisci expedita pariatur ut id accusantium reprehenderit sed cumque quibusdam? Alias?
-                </p>
+            <!-- ../media/stay-app.JPG -->
             </div>
             <div id="contact" class="section fade-in-text content">
                 <h2>Lorem ipsum dolor sit amet.</h2>
