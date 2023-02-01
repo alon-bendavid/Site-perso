@@ -1,6 +1,10 @@
-projects.style.display = 'none';
+document.addEventListener('DOMContentLoaded',function(){
+  projects.style.display = 'none';  
+  about.style.display = 'flex';
 
-about.style.display = 'block';
+       
+})
+
 
 
 const video = document.querySelector('video');
@@ -21,38 +25,36 @@ document.querySelector('video').playbackRate = 0.2;
 
 
 
-document.addEventListener('DOMContentLoaded',function(){
-
-       
-})
 
 
 
-//open the 
+//once menu item is clicked, chosen page open
 
 function showSection(id) {
- 
-      //starting animation
-      gsap.from('#M-plateforme', {
-        duration:2.12 , x:'-40',easein:'power4',delay: 0.4
-        
-        })
-        gsap.from('#M-poolstar', {
-          duration:1.9 , x:'-40%',easein:'power4',delay: 0.4
-          
-          })
-          gsap.from('#M-level', {
-            duration:1.6 , x:'-40%',easein:'power4',delay:0.4
-            
-            })
-            gsap.from('#M-taga', {
-              duration:1.3 , x:'-40%',easein:'power4',delay:0.4
-              
-              })
-              gsap.from('#M-ron', {
-                duration:1 , x:'-40%',easein:'power4',delay: 0.4
-                
-                })
+ if(id == "experience"){
+
+   //starting animation
+   gsap.from('#M-plateforme', {
+     duration:2.12 , x:'-43',easein:'power4',delay: 0.4
+     
+     })
+     gsap.from('#M-poolstar', {
+       duration:1.9 , x:'-41%',easein:'power4',delay: 0.4
+       
+       })
+       gsap.from('#M-level', {
+         duration:1.6 , x:'-39%',easein:'power4',delay:0.4
+         
+         })
+         gsap.from('#M-taga', {
+           duration:1.3 , x:'-37%',easein:'power4',delay:0.4
+           
+           })
+           gsap.from('#M-ron', {
+             duration:1 , x:'-30%',easein:'power4',delay: 0.4
+             
+             })
+ }
     // hide all sections
     let plateforme = document.getElementById('plateforme');
 
@@ -67,7 +69,7 @@ function showSection(id) {
     plateforme.style.display = 'block';
 
   }
-  
+  //exprience page menu 
   function showExperience(id) {
 
     // hide all sections
