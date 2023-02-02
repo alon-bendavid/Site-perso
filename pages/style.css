@@ -10,6 +10,9 @@
     color: rgb(255, 255, 255)
     
 }
+.blue {
+  color: rgb(34, 185, 255);
+}
 
 /* ///////////////////FONTS//////////////////// */
 h1{
@@ -289,9 +292,18 @@ hr{
 #projects{
 display: flex;
 justify-content: space-around;
-gap: 2rem;
+gap: 3rem;
+/* max-height: 40%; */
+/* background-color: aqua; */
 
 }
+/* .gif{
+  width:500%;
+  height:0;
+  padding-bottom:86%;
+  position:relative;
+  bottom: 25%;
+} */
 
     .img-container {
       /* position: relative; */

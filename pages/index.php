@@ -38,7 +38,7 @@
                 <img class="profilePic" src="../media/profilePic.png" alt="">
                 <div class="about">
                     <h1>Hi, my name is</h1>
-                    <h2>Alon Ben David</h2>
+                    <h2> <span class="blue">Alon</span> Ben David</h2>
 
                     <p>As a junior web developer, I am well-versed in HTML,
                         CSS, and PHP,
@@ -99,24 +99,38 @@
             </div>
             <div id="projects" class="section fade-in-text content">
                 <div class="project">
-                    <h3>Projet Stay App Store</h3>
-                    <span>parody project</span>
+                    <h3><span class="blue">1</span>. Stay App Store</h3>
+                    <p>Developed a web store site using HTML and CSS. Project aimed at learning the basics of front-end development and was a parody of a real web application.</p>
                     <div class="img-container">
                         <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="../media/stay-app.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
-                    <h3>Projet Stay App Store</h3>
-                    <span>parody project</span>
+                    <h3><span class="blue">2</span>. Réservation de salles</h3>
+                    <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
                     <div class="img-container">
                         <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/Réservation de salles.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
-                    <h3>Projet Stay App Store</h3>
-                    <span>parody project</span>
+                    <h3><span class="blue">3</span>. Autocompletion</h3>
+                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/stay-app.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="../media/autocompletion.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><span class="blue">4</span>. livre-or</h3>
+                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="../media/livre-or.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><span class="blue">5</span>. wordpress project</h3>
+                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/myCMS/"> <img class="img-content" src="../media/wordpress.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
             </div>
@@ -124,11 +138,11 @@
             <!-- ../media/stay-app.JPG -->
             </div>
             <div id="contact" class="section fade-in-text content">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                <!-- <div class="gif"><iframe src="https://giphy.com/embed/l4FGI8GoTL7N4DsyI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+                <h2>Contact Me <span class="blue">.</span></h2>
+                <h3>Junior Web Developer Seeking Alternance Opportunity</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio ab hic libero nobis voluptatem excepturi ad. Laborum expedita cupiditate rem dolorem dolorum cumque, quod harum provident? Dolores provident tempora iste. Eum nemo sed illo possimus nobis officiis deserunt labore inventore quas vitae accusantium ipsam, non quo cupiditate alias blanditiis consectetur molestias et autem aut nostrum ab culpa. Facere, minima, ex architecto quia enim totam perferendis laudantium recusandae tempore consequatur sed atque maiores id aspernatur maxime quidem vero. Sequi eius aut quis quam soluta veritatis dicta, veniam at suscipit, adipisci expedita pariatur ut id accusantium reprehenderit sed cumque quibusdam? Alias?
-                </p>
+                <p>I am a Junior Web Developer seeking an alternance starting in March. While I am still in the process of building my technical skills, I bring with me a strong eye for design and a passion for creating visually appealing websites. I am eager to continue learning and growing in the field, and I am confident that I can make meaningful contributions to your team through my design abilities and strong work ethic. If you have an alternance opportunity available, I would love the chance to discuss it further. Thank you for considering my application.</p>
             </div>
 
         </section>
