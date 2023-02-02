@@ -131,11 +131,13 @@ align-items: center;
 height: 80vh;
 }
 .video {
-  width: 25%;
+  width: 28%;
   position: absolute;
 /* align-self: center; */
 right: 20%;
 bottom: 5%;
+position:absolute;
+z-index:0;
 }
 
 /* ///////////////////CONTENT///////////////////// */
@@ -177,7 +179,9 @@ img{
   height: 18vh;
   width: 404vw;
   /* background-color: greenyellow; */
-  
+  position: relative;
+z-index:1;
+
 }
 p{
   line-height: 2
@@ -225,6 +229,7 @@ hr{
 
 }
 
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -241,45 +246,59 @@ hr{
       right: 0;
     }
   }
-  @media (min-width:768 ){
-    body{
-        background-color: aqua;
+  @media (width > 767px) {
+    .message{
+      display: none;
     }
+  }
+  @media (width <= 767px) {
+    .message{
+      /* display: block; */
+      display: flex;
+      height: 100vh;
+      /* background-color: rgb(191, 241, 6); */
+      /* position: absolute; */
+      padding: 2rem;
+    }
+    .sorry{
+      /* background-color: aqua; */
+      align-self: center;
+    }
+    
   }
 
   /* ////////////////////responsive//////////////////////////////////////// */
   @media (max-width: 767px) {
     main{
         /* background-color: rgb(248, 90, 17); */
+        display: none;
 
-        flex-direction: column;
+        /* flex-direction: column; */
         /* justify-content: center; */
         /* flex-wrap: wrap; */
-        align-items: center;
+        /* align-items: center; */
         
         
         }
-       ul{
-          /* display: flex;
-          flex-direction: column;
-      
-          width: 25%;
-          gap: 1rem; */
+       .icons{
+  
           display: none;
       }
-      .section{
-        /* padding: 0; */
+      .message{
+        display: block;
+
       }
-      .content{
+
+      /* .content{
        flex-direction: column;
        width: 100%;
        text-overflow: inherit;
        height: 50%;
-      }
-      .about{
+      } */
+  nav{
+    display: none;
 
-      }
-
+  }
    
 
         
@@ -304,7 +323,7 @@ gap: 3rem;
 .gif{
   width:100%;
   /* height:0; */
-  height: auto;
+  height: auto  ;
   padding-bottom:15%;
   position:relative;
   /* bottom: 25%;   */

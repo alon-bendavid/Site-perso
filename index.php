@@ -13,7 +13,13 @@
 
 </head>
 
+
 <body>
+    <div class="message">
+        <p class="sorry">Sorry, responisve site is not ready yet, please open the site from a bigger screen.</p>
+        <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/dBsUACbhvDROt9pbFO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+        <p><a href="https://giphy.com/gifs/not-yet-no-dBsUACbhvDROt9pbFO">via GIPHY</a></p>
+    </div>
     <!-- <img class="background" src="../media/backgroundA.png" alt=""> -->
     <header>
         <nav>
@@ -22,7 +28,7 @@
 
 
                 <a class="nav-link" href="#home" onclick="showSection('about')">About</a>
-                <a class="nav-link" href="#about" onclick="showSection('experience')">Experience</a>
+                <a class="nav-link" href="#about" onclick="showSection('experience')">Experiences</a>
                 <a class="nav-link" href="#contact" onclick="showSection('projects')">Projects</a>
                 <a class="nav-link" href="#contact" onclick="showSection('contact')">Contact</a>
 
@@ -35,7 +41,7 @@
 
 
             <div id="about" class="section fade-in-text content">
-                <img class="profilePic" src="../media/profilePic.png" alt="">
+                <img class="profilePic" src="media/profilePic.png" alt="">
                 <div class="about">
                     <h1>Hi, my name is</h1>
                     <h2>Alon Ben David</h2>
@@ -54,7 +60,6 @@
                 </div>
             </div>
             <div id="experience" class="section fade-in-text content">
-                <video class="video" loop muted src="..\media\file.mp4"></video>
                 <div class="experienceBtns">
 
                     <h3 class="orange">Working Experience</h3>
@@ -69,18 +74,20 @@
                 <hr width="1px" size="1">
                 <div id="plateforme" class="experience direction">
 
-                    <h2>STARTER DE LA PLATEFORME "START", 2022</h2>
-                    <h3>Web and mobile developer </h3>
+                    <h2>LA PLATEFORME SCHOOL </h2>
+                    <h3>Web and mobile developer, "START" 2022</h3>
 
                     <p>
                         Enrolled in the "Starter" program at La Platform, 2022 for web and mobile web development. The curriculum includes hardware, system, and web development fundamentals with a focus on full stack web development, using HTML, CSS, PHP, Python, and JavaScript.
 
                     </p>
-                    <a href="https://laplateforme.io/">laplateforme</a>
+
+                    <a href="https://laplateforme.io/"> <span class="blue">laplateforme - site </span></a>
+
                 </div>
                 <div id="poolstar" class="experience direction">
                     <h2>Industrial Designer and Conceptualizer</h2>
-                    <h3>POOLSTAR, CDD 6 MOIS 2021/2022</h3>
+                    <h3>POOLSTAR COMPANY, CDD 6 MOIS 2021/2022</h3>
 
                     <li>Identifying opportunities for innovation in new products.</li>
                     <li>Research and development of nautical products.</li>
@@ -92,7 +99,7 @@
                 </div>
                 <div id="level" class="experience direction">
                     <h2>Industrial Designer</h2>
-                    <h3>LEVEL, 2020 (February to September)</h3>
+                    <h3>LEVEL COMPANY, 2020 (February to September)</h3>
                     <li>Design and development of the first self-stabilizing electric foil board</li>
                     <li>Composite material design and fabrication</li>
                     <li>Graphics design (logo and brand identity creation)</li>
@@ -111,12 +118,13 @@
 
                 </div>
                 <div id="ron" class="experience direction">
-                    <h2>Industrial Design Internship, (July - August) </h2>
-                    <h3>RON ARAD STUDIO, 2017 </h3>
+                    <h2>Industrial Design Internship </h2>
+                    <h3>RON ARAD STUDIO, 2017 (July - August) </h3>
                     <li> Created sketches, renderings, and prototypes of product designs</li>
                     <li>Assisted in the design of customized 3D printed glasses.</li>
 
                 </div>
+                <video class="video" loop muted src="media\file.mp4"></video>
 
             </div>
             <div id="projects" class="section fade-in-text content">
@@ -124,35 +132,35 @@
                     <h3><span class="blue">1</span>. Stay App Store</h3>
                     <p>Developed a web store site using HTML and CSS. Project aimed at learning the basics of front-end development and was a parody of a real web application.</p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="../media/stay-app.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="media/stay-app.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">2</span>. Autocompletion</h3>
                     <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="../media/autocompletion.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="media/autocompletion.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">3</span>. livre-or</h3>
                     <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="../media/livre-or.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="media/livre-or.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">4</span>. Réservation de salles</h3>
                     <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/Réservation de salles.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="media/Réservation de salles.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">5</span>. wordpress project</h3>
                     <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/myCMS/"> <img class="img-content" src="../media/wordpress.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/myCMS/"> <img class="img-content" src="media/wordpress.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
             </div>
@@ -163,7 +171,7 @@
                 <h2>Contact Me <span class="blue">.</span></h2>
                 <h3>Junior Web Developer looking for an Alternance Opportunity</h3>
                 <p>
-                    please feel free to reach out to me at <span class="blue">alonshony@gmail.com </span>
+                    Feel free to reach me out at <span class="blue">alonshony@gmail.com </span>
                 </p>
                 <div class="gif"><iframe src="https://giphy.com/embed/l4FGI8GoTL7N4DsyI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
             </div>
