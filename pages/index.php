@@ -38,7 +38,7 @@
                 <img class="profilePic" src="../media/profilePic.png" alt="">
                 <div class="about">
                     <h1>Hi, my name is</h1>
-                    <h2> <span class="blue">Alon</span> Ben David</h2>
+                    <h2>Alon Ben David</h2>
 
                     <p>As a junior web developer, I am well-versed in HTML,
                         CSS, and PHP,
@@ -69,31 +69,53 @@
                 <hr width="1px" size="1">
                 <div id="plateforme" class="experience direction">
 
-                    <h3>STARTER DE LA PLATEFORME "START", 2022</h3>
+                    <h2>STARTER DE LA PLATEFORME "START", 2022</h2>
+                    <h3>Web and mobile developer </h3>
+
                     <p>
-                        Initiation au hardware, système et au développement web
-                        Spécialisation en développement web full stack
-                        Langages: HTML, CSS,, PHP, Python
+                        Enrolled in the "Starter" program at La Platform, 2022 for web and mobile web development. The curriculum includes hardware, system, and web development fundamentals with a focus on full stack web development, using HTML, CSS, PHP, Python, and JavaScript.
 
                     </p>
+                    <a href="https://laplateforme.io/">laplateforme</a>
                 </div>
                 <div id="poolstar" class="experience direction">
-                    <h2>Concepteur et Designer Industriel</h2>
+                    <h2>Industrial Designer and Conceptualizer</h2>
                     <h3>POOLSTAR, CDD 6 MOIS 2021/2022</h3>
 
-                    <li>Identification d'opportunités pour innover dans de nouveaux produits</li>
-                    <li>R&D sur des produits nautiques</li>
-                    <li>Design et animations 3D</li>
-                    <li>Coordination avec les Ingénieurs</li>
+                    <li>Identifying opportunities for innovation in new products.</li>
+                    <li>Research and development of nautical products.</li>
+                    <li>3D design and animation</li>
+                    <li>Creating sketches and renderings of product designs</li>
+
+                    <li>Collaborating with engineers to ensure design feasibility and product functionality</li>
 
                 </div>
                 <div id="level" class="experience direction">
-                    <h2>Designer industriel</h2>
-                    <h3>LEVEL, 2020 (FÉVRIER - SEPTEMBRE)</h3>
-                    <li> Design d'un foil board électrique stable</li>
-                    <li> R&D de concepts (design et ingénierie)</li>
-                    <li>Conception et fabrication de composites</li>
-                    <li>Graphisme (logo et marque)</li>
+                    <h2>Industrial Designer</h2>
+                    <h3>LEVEL, 2020 (February to September)</h3>
+                    <li>Design and development of the first self-stabilizing electric foil board</li>
+                    <li>Composite material design and fabrication</li>
+                    <li>Graphics design (logo and brand identity creation)</li>
+                    <li>Prototyping and testing of product design</li>
+                    <a class="blue" href="https://www.levelfoils.com/">Level - site</a>
+
+                </div>
+                <div id="taga" class="experience direction">
+                    <h2>Industrial Designer</h2>
+                    <h3>TAGA DESIGN STUDIO, 2017 - 2020</h3>
+                    <li> Product Development (from concept to production)</li>
+                    <li>Research & Development (design and engineering)</li>
+                    <li> Design of flexible and plastic materials</li>
+                    <li>Electrical component organization</li>
+                    <a class="blue" href="https://tagapro.com/">Taga - site</a>
+
+                </div>
+                <div id="ron" class="experience direction">
+                    <h2>Industrial Design Internship, (July - August) </h2>
+                    <h3>RON ARAD STUDIO, 2017 </h3>
+                    <li> Created sketches, renderings, and prototypes of product designs</li>
+                    <li>Assisted in the design of customized 3D printed glasses.</li>
+
                 </div>
 
             </div>
@@ -106,24 +128,24 @@
                     </div>
                 </div>
                 <div class="project">
-                    <h3><span class="blue">2</span>. Réservation de salles</h3>
-                    <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
-                    <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/Réservation de salles.JPG" alt="your-image-description"> </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <h3><span class="blue">3</span>. Autocompletion</h3>
+                    <h3><span class="blue">2</span>. Autocompletion</h3>
                     <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
                         <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="../media/autocompletion.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
-                    <h3><span class="blue">4</span>. livre-or</h3>
+                    <h3><span class="blue">3</span>. livre-or</h3>
                     <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
                     <div class="img-container">
                         <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="../media/livre-or.JPG" alt="your-image-description"> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><span class="blue">4</span>. Réservation de salles</h3>
+                    <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="../media/Réservation de salles.JPG" alt="your-image-description"> </a>
                     </div>
                 </div>
                 <div class="project">
@@ -138,11 +160,12 @@
             <!-- ../media/stay-app.JPG -->
             </div>
             <div id="contact" class="section fade-in-text content">
-                <!-- <div class="gif"><iframe src="https://giphy.com/embed/l4FGI8GoTL7N4DsyI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
                 <h2>Contact Me <span class="blue">.</span></h2>
-                <h3>Junior Web Developer Seeking Alternance Opportunity</h3>
-
-                <p>I am a Junior Web Developer seeking an alternance starting in March. While I am still in the process of building my technical skills, I bring with me a strong eye for design and a passion for creating visually appealing websites. I am eager to continue learning and growing in the field, and I am confident that I can make meaningful contributions to your team through my design abilities and strong work ethic. If you have an alternance opportunity available, I would love the chance to discuss it further. Thank you for considering my application.</p>
+                <h3>Junior Web Developer looking for an Alternance Opportunity</h3>
+                <p>
+                    please feel free to reach out to me at <span class="blue">alonshony@gmail.com </span>
+                </p>
+                <div class="gif"><iframe src="https://giphy.com/embed/l4FGI8GoTL7N4DsyI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
             </div>
 
         </section>
