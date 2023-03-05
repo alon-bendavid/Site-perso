@@ -1,12 +1,21 @@
 const container = document.getElementById('projects');
-container.scrollTop = container.scrollHeight;
+let scrollLeft = 0;
 
-document.addEventListener('DOMContentLoaded',function(){
-  projects.style.display = 'none';  
-  about.style.display = 'flex';
+function scrollContainer() {
+  if (scrollLeft >= container.scrollWidth - container.clientWidth) {
+    scrollLeft = 0;
+  } else {
+    scrollLeft += 1; //  scroll speed 
+  }
+  container.scrollLeft = scrollLeft;
+}
 
-       
-})
+setInterval(scrollContainer, 50); //  scroll interval 
+
+container.addEventListener('scroll', function() {
+  // update scrollLeft value when i scrolls manually
+  scrollLeft = container.scrollLeft;
+});
 
 
 
