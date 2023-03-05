@@ -1,3 +1,6 @@
+const container = document.getElementById('projects');
+container.scrollTop = container.scrollHeight;
+
 document.addEventListener('DOMContentLoaded',function(){
   projects.style.display = 'none';  
   about.style.display = 'flex';
@@ -66,7 +69,7 @@ function showSection(id) {
     var section = document.getElementById(id);
     section.style.display = 'flex';
     // history.pushState({}, id, '#' + id); // update URL
-    plateforme.style.display = 'block';
+    plateforme.style.display = 'block';  
 
   }
   //exprience page menu 

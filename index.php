@@ -127,44 +127,80 @@
                 <video class="video" loop muted src="media\file.mp4"></video>
 
             </div>
-            <div id="projects" class="section fade-in-text content">
+            <div id="projects" class="section fade-in-text content projects">
                 <div class="project">
-                    <h3><span class="blue">1</span>. Stay App Store</h3>
-                    <p>Developed a web store site using HTML and CSS. Project aimed at learning the basics of front-end development and was a parody of a real web application.</p>
+                    <h3><span class="blue"> 1</span>. Stay App Store</h3>
+                    <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html">
+                        <p>Developed a web store site using HTML and CSS. Project aimed at learning the basics of front-end development and was a parody of a real web application.</p>
+                    </a>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="media/stay-app.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/App%20Favorites/index.html"> <img class="img-content" src="media/stay-app.JPG" alt=""> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">2</span>. Autocompletion</h3>
-                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion">
+                        <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    </a>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="media/autocompletion.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/Autocompletion"> <img class="img-content" src="media/autocompletion.JPG" alt=""> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">3</span>. livre-or</h3>
-                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php">
+                        <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    </a>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="media/livre-or.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/livre-or/pages/connexion.php"> <img class="img-content" src="media/livre-or.JPG" alt=""> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">4</span>. Réservation de salles</h3>
-                    <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
+                    <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php">
+                        <p>Developed a room reservation web site using PHP and a database. Site enables room reservation for events and data management, as well for user mangement. </p>
+                    </a>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="media/Réservation de salles.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/reservation-salles/pages/index.php"> <img class="img-content" src="media/Réservation de salles.JPG" alt=""> </a>
                     </div>
                 </div>
                 <div class="project">
                     <h3><span class="blue">5</span>. wordpress project</h3>
-                    <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    <a href="https://ben-david-alon.students-laplateforme.io/myCMS/">
+                        <p>Developed a PHP/JavaScript search engine for data fetching and presentation. First JavaScript project, honing skills in server-side and client-side</p>
+                    </a>
                     <div class="img-container">
-                        <a href="https://ben-david-alon.students-laplateforme.io/myCMS/"> <img class="img-content" src="media/wordpress.JPG" alt="your-image-description"> </a>
+                        <a href="https://ben-david-alon.students-laplateforme.io/myCMS/"> <img class="img-content" src="media/wordpress.JPG" alt=""> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><span class="blue">6</span>. To Do List</h3>
+                    <a href="https://ben-david-alon.students-laplateforme.io/tdl/index.php">
+                        <p>Created a real-time to-do list website with dynamic updates using PHP, JavaScript, and MySQL, implementing Object-Oriented Programming for the first time. </p>
+                    </a>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/tdl/index.php"> <img class="img-content" src="media/tdl.JPG" alt=""> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><span class="blue">7</span>. Clicker game</h3>
+                    <a href="https://ben-david-alon.students-laplateforme.io/clicker/index.php">
+                        <p>A clicker game created with JavaScript. Players click buttons to hire employees and produce bougettes. The game features dynamic updates and real-time tracking of progress </p>
+                    </a>
+                    <div class="img-container">
+                        <a href="https://ben-david-alon.students-laplateforme.io/clicker/index.php"> <img class="img-content" src="media/clicker.JPG" alt=""> </a>
                     </div>
                 </div>
             </div>
-
+            <!-- <div class="boxLink">
+        <a href="https://ben-david-alon.students-laplateforme.io/tdl/index.php">
+          To Do List</a
+        >
+        <a class="git_link" href="https://github.com/alon-bendavid/tdl"
+          >project on git</a
+        >
+      </div>
+    </div> -->
             <!-- ../media/stay-app.JPG -->
             </div>
             <div id="contact" class="section fade-in-text content">

@@ -10,6 +10,26 @@
     color: rgb(255, 255, 255)
     
 }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 16px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(54, 172, 226);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(34, 185, 255);
+  transition: 0.3s ease-in-out; 
+
+}
 .blue {
   color: rgb(34, 185, 255);
 }
@@ -33,6 +53,12 @@ h3{
   
   margin-bottom: 1rem;
   
+}
+h3 span{
+  font-weight: 800;
+}
+.project h3{
+  font-weight: 800;
 }
 .orange {
   color: rgb(34, 185, 255);
@@ -313,13 +339,26 @@ div .experience{
     /* //////////projects///////////////// */
 
 #projects{
+  /* background-color: aqua; */
 display: flex;
-justify-content: space-around;
-gap: 3rem;
+width: 80%;
+padding: 3rem;
+      overflow: overlay;
+
+/* justify-content: space-around; */
 /* max-height: 40%; */
 /* background-color: aqua; */
+/* flex-wrap: wrap; */
+max-width: 100%;
+/* max-width: 100VW; */
+/* overflow:hidden; */
+/* overflow-x: hidden; */
+gap: 3rem;
+}
+.project{
 
 }
+
 .gif{
   width:100%;
   /* height:0; */
@@ -348,4 +387,8 @@ gap: 3rem;
       filter: grayscale(100%);
       transition: filter 0.5s ease-in-out;
       border-radius: 15px;
+    }
+    .projects{
+      /* overflow: overlay; */
+      /* width: 80%; */
     }
